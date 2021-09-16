@@ -115,7 +115,7 @@ Table 1 and Table 2 in "OMPQ: Orthogonal Mixed Precision Quantization".
 
  Mixed precision quantization comparisons of OMPQ and BRECQ on ResNet-18 and MobileNetV2 are as follows,
 
-![ Mixed precision quantization comparison](.\comparison.jpg){width=65%}
+![ Mixed precision quantization comparison](./comparison.jpg){width=65%}
 
 ## Related Works
 
