@@ -20,7 +20,9 @@ pip install -r requirements.txt
 
 To start running our code to get the optimal bit configuration, you need to download the [basemodel](https://drive.google.com/drive/folders/1q0wtmWNdqPZuZqnSCQLScYFNIYzXKebg?usp=sharing), and copy the path of base model to "--path". 
 
-<font size=4>**Bit Configuration**</font>
+
+
+<font size=6>**Bit Configuration**</font>
 
 
 
@@ -44,7 +46,7 @@ bash ./mixed_bit/run_scripts/quant_resnet18.sh
 
 
 
-<font size=4>**QAT**</font>
+<font size=6>**QAT**</font>
 
 Because of random seed, bit configuration obtained through feature extraction may have a little difference from ours. Our bit configurations are given in bit_config.py. Our quantized models and logs are also given in [this](https://drive.google.com/drive/folders/1q0wtmWNdqPZuZqnSCQLScYFNIYzXKebg?usp=sharing) link.
 
@@ -74,7 +76,7 @@ bash ./QAT/run_scripts/train_resnet18.sh
 
 
 
-<font size=4>**PTQ**</font>
+<font size=6>**PTQ**</font>
 
 For the post-training quantization, we only require a few GPU hours to get the quantization model. So we set the random seed. You can directly get the same accuracy in the paper by running codes as follows:
 
@@ -113,7 +115,9 @@ Table 1 and Table 2 in "OMPQ: Orthogonal Mixed Precision Quantization".
 | MobileNetV2 | mixed/8 | 1.3            | 69.51    |
 | MobileNetV2 | mixed/8 | 1.5            | 71.27    |
 
- Mixed precision quantization comparisons of OMPQ and BRECQ on ResNet-18 and MobileNetV2 are as follows,
+ 
+
+Mixed precision quantization comparisons of OMPQ and BRECQ on ResNet-18 and MobileNetV2 are as follows,
 
 ![ Mixed precision quantization comparison](./comparison.jpg)
 
