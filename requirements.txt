@@ -1,9 +1,0 @@
-torch
-Pillow==8.0.1
-tensorboardX==2.1
-scipy==1.5.3
-scikit-learn==0.23.2
-torchvision
-pytorchcv
-torchprofile
-PuLP
