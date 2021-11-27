@@ -172,8 +172,8 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    seed_all(args.seed)
-    # torch.backends.cudnn.benchmark = True
+    # seed_all(args.seed)
+    torch.backends.cudnn.benchmark = True
     # build imagenet data loader
     train_loader, test_loader = build_imagenet_data(batch_size=args.batch_size, workers=args.workers,
                                                     data_path=args.data_path)
