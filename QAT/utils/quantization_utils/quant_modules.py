@@ -604,7 +604,7 @@ class QuantAveragePool2d(Module):
 
 class QuantConv2d(Module):
     """
-    Class to quantize weights of given convolutional layer
+    Class to quantize weights ofr given convolutional layer
 
     Parameters:
     ----------

@@ -78,7 +78,7 @@ bash ./QAT/run_scripts/train_resnet18.sh
 
 <font size=6>**PTQ**</font>
 
-For the post-training quantization, we only require a few GPU hours to get the quantization model. So we set the random seed. You can directly get the same accuracy in the paper by running codes as follows:
+For the post-training quantization, we only require a few GPU hours to get the quantization model by running codes as follows:
 
 ```python
 python main_imagenet.py --data_path /Path/to/Dataset/ --arch resnet18 --n_bits_w 2 --channel_wise --n_bits_a 8 --act_quant --test_before_calibration --bit_cfg "[4, 3, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 3, 3, 3, 3]"
