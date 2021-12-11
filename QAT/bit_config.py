@@ -120,6 +120,7 @@ bit_config_dict = {
         'quant_output': 8
     },
 
+
     "bit_config_resnet50_modelsize_16.0_a5_141BOP": {
         'quant_input': 8,
         'quant_init_convbn': 8,
@@ -542,6 +543,5 @@ bit_config_dict = {
         'quant_act_output': 8,
         'quant_output': 8
     },
-
 
 }

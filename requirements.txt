@@ -1,9 +1,9 @@
-torch
+torch==1.9.0
 Pillow==8.0.1
 tensorboardX==2.1
 scipy==1.5.3
 scikit-learn==0.23.2
-torchvision
-pytorchcv
-torchprofile
+torchvision==0.10.0
+pytorchcv==0.0.66
+torchprofile==0.0.4
 PuLP
